@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    position: relative; /* Agar bisa menggunakan posisi absolut pada logo dan info */
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Meningkatkan lebar kontainer untuk memberi ruang lebih */
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    width: 150px; /* Memberikan ukuran tetap untuk tombol */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Jarak antar elemen */
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Styling untuk logo */
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+#logo {
+    width: 80px; /* Menyesuaikan ukuran logo */
+    height: auto;
+}
